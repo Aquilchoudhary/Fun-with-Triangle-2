@@ -16,13 +16,13 @@
     font-size: 130%;
 }
 .container {
-    background-color: rgb(39, 139, 19);
+    background-color: rgb(241, 88, 177);
 }
 #head {
     padding-left: 2rem;
     padding-top: 2rem;
     color: white;
-    font-style: oblique;
+ 
 }
 .question{
     text-align: center;
@@ -41,7 +41,7 @@
     padding-bottom: 2rem;
 }
 #is-triangle-btn{
-    background-color: rgb(39, 139, 19);
+    background-color: rgb(241, 88, 177);
     font-size: 150%;
     color: white;
 }
@@ -53,7 +53,7 @@
 
 .footer-1{
     text-decoration: none;
-    color: rgb(39, 139, 19);
+    color: rgb(241, 88, 177);
 }
 .footer2 {
     text-align: center;

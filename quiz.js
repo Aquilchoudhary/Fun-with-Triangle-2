@@ -1,7 +1,7 @@
 const quizForm=document.querySelector('.quiz-form');
 const submitAnswerButton=document.querySelector('#submit-answer-btn');
 const outputScore=document.querySelector('#output');
-const correctAnswer=["90","Right"];
+const correctAnswer=["90","Right","Equilateral triangle","36","Isoceles triangle"];
 
 function calculateScore(){
 let score=0;

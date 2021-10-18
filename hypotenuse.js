@@ -8,9 +8,17 @@ function calculateSumOfSquares(a,b){
 }
 
 function calculateHypotenuse(){
- const sumofsquare= calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
- const lengthOfHypotenuse=Math.sqrt(sumofsquare);
- outputhypotenuse.innerText="The length of Hypotenuse is "+lengthOfHypotenuse;
+    a=Number(sides[0].value)
+    b=Number(sides[1].value)
+    if(a>0 && b>0){
+        const sumofsquare= calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
+        const lengthOfHypotenuse=Math.sqrt(sumofsquare);
+        outputhypotenuse.innerText="The length of Hypotenuse is "+lengthOfHypotenuse;
+    }
+    else{
+        outputhypotenuse.innerText="Input cannot be negative and empty ";
+    }
+ 
 }
 
 hypotenuseBtn.addEventListener('click',calculateHypotenuse);
